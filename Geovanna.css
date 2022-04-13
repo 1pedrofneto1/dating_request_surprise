@@ -1,0 +1,98 @@
+/* Reset and General Settings =
+-----------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80%;
+    width: min(90vw, 50rem);
+    margin: auto;
+    text-align: justify;
+}
+
+h1{
+    font-size: 95%;   
+    margin: 2rem;
+    text-align: center;
+}
+
+input{
+    border-radius: 1rem;
+    background-color: red;
+    color: white;
+    font-size: 80%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+h2{
+    font-size: 85%;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+/* Button Config ==============
+-----------------------------*/
+
+.first.button{
+    visibility: hidden;
+}
+
+.first.button.active{
+    visibility: visible;
+}
+
+.second.button{
+    visibility: hidden;
+}
+
+.second.button.active{
+    visibility: visible;
+}
+
+.third.button{
+    visibility: hidden;
+}
+
+.third.button.active{
+    visibility: visible;
+}
+
+/* Text Config ================
+-----------------------------*/
+
+.second.text{
+    visibility: hidden;
+}
+
+.second.text.active{
+    visibility: visible;
+}
+
+.third.text{
+    visibility: hidden;
+}
+
+.third.text.active{
+    visibility: visible;
+}
+
+.fourth.text{
+    visibility: hidden;
+}
+
+.fourth.text.active{
+    visibility: visible;
+    text-align: center;
+    padding: 0 0 5rem 0;
+}
+
+
